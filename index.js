@@ -7,7 +7,7 @@ class Formatter {
     return str.replace(/[^A-Za-z0-9 '-]/g, '')  
   }
   static titleize(str){
-    let bannedWords = ['a','an','but','of','and','for','at','by','from'];
+    let bannedWords = ['the','a','an','but','of','and','for','at','by','from'];
     let strArr = str.split(' ');
     let newArr =[];
     for(let i=0;i < strArr.length;i++){
